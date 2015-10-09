@@ -138,7 +138,7 @@ EOF
 LOCAL_PATH := \$(call my-dir)
 
 ifeq (\$(BOARD_VENDOR),samsung)
-ifneq (\$(filter a5ultexx,\$(TARGET_DEVICE)),)
+ifneq (\$(filter a3ultexx,\$(TARGET_DEVICE)),)
 
 include \$(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
